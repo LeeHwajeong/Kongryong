@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+<meta charset="UTF-8">
+
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="css/fontonn.css">
+
+<title>20192623</title>
+
+
+
+</head>
+
+<style>
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  z-index: 1;
+}
+
+
+
+
+
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s; 
+  padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+
+
+
+
+
+#wrap {margin: auto; color: black; text-align: center;}
+
+
+body,html{
+text-align:center;
+
+    height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+  </style>
+
+
+<script>
+
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+
+
+
+
+
+</script>
+
+
+
+
+  <body>
+
+    <div class="navbar">
+      <a href="index.html">
+      <span class="navbar-brand" href="#">울산 공룡축제</a>
+
+        <div id="mySidebar" class="sidebar">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+          <a href="eve.html">행사목록</a>
+          <a href="tk.html">예매권 구매</a>
+          <a href="chr.html">캐릭터 소개</a>
+        </div>
+
+        <div id="main">
+          <button class="openbtn" onclick="openNav()">&#9776;</button>
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+<ul> </ul>
+        	</div>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+          <form class="example" action="action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+
+
+          <div id="wrap">
+
+
+
+<br>
+<br>
+<br>
+<h3>Character<br>Introduction</h3>
+
+<p>-울산 공룡축제를 알리는 새로운 울산의 대표 캐릭터 </p>
+<p>-과거 울산에 살았던 초식.육식 공룡을 모티브로 캐릭터화 </p>
+<p>- 두 아기 공룡 캐릭터들을 활용한 상품화+홍보에 용이</p>
+<p>-어린 아이부터 어른까지 사랑받는 캐릭터 디자인</p>
+
+
+
+
+  					<img src="images/2.png" width="70%">
+  					<img src="images/rongwe.png" width="90%">
+
+
+
+  				  <h3>까칠한 아기 육식공룡<br></h3>
+<h2 style="color: #8FC3BA">"룡이"</h2>
+<p>울산 유곡동에 사는 룡이는 까칠하지만 다정한 육식 공룡입니다.</p>
+  조용하고 도도한 룡이는 책을 읽거나 무엇인가를 만드는 것을 좋아합니다.<br>
+ 낯을 잘 가리는 성격이기 때문에 까칠 하기만 하다고 생각하기 쉽지만
+ <br>사실은 여리고 뒤에서 몰래 챙겨주는 다정한 성격을 가진 귀여운 아이 육식 공룡이랍니다.
+ <br> 쑥스러움이 많은 룡이를 위해 먼저 다가가 보세요!
+ <br> 소심하지만 겉모습과 다른 매력이 있는 사랑스러운 아기 공룡입니다. </p>
+
+
+
+
+
+
+<br>
+<br>
+<br>
+            <img src="images/kong.png" width="70%">
+            <img src="images/kongwe.png" width="90%">
+
+  				  <h3>귀여운 아기 초식공룡<br></h3>
+<h2 style="color: #EF8687">"콩이"</h2>
+<p> 울산 천전리에 사는 콩이는 귀여운 초식 공룡입니다.</p>
+<p> 호기심과 탐구심이 많은 콩이는 산책을 하거나 나가 뛰어노는걸 좋아합니다. <br>
+다른 아기 공룡 친구들을 좋아해서 쫓아 다니기도 한답니다.
+<br>다른 흥미로운 것이 있으면 갑자기 어디론가 사라져 버리기도 하니 놀라지 마세요!
+<br>호기심이 많아 사고도 많이 치지만 사랑스러운 아기 공룡입니다.</p>
+
+<p>
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+</div>
+
+</body>
+
+</html>

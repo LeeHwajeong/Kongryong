@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/fontonn.css">
+
+<style>
+
+body{
+text-align:center;
+
+
+}
+
+
+
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+</style>
+
+<script>
+alert("다운로드가 되지 않으면 이미지를 눌러 저장해주세요. ")
+
+</script>
+
+
+</head>
+<body>
+
+<h2>울산 공룡 축제 온라인 티켓</h2>
+<p>티켓 다운로드를 원하시면 이미지를 눌러주세요!</p>
+
+<div class="container">
+  <img src="images/Ticket.jpg" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text"</div>
+
+
+      <a href="javascript:alert('후원을 해주셔서 감사합니다')">
+      </a>
+
+<a href="images/Ticket.jpg" download> 다운로드</a>
+
+
+
+
+  </div>
+</div>
+
+</body>
+</html>

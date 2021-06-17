@@ -1,0 +1,14 @@
+.scroll-title
+    text-align: center
+
+.scroll-menu
+    text-align: center
+    padding: 10px 0px
+    width: 100%
+
+.scroll-content
+    height: 2000px
+
+.scroll-fixed
+    position: fixed
+    top: 0px
